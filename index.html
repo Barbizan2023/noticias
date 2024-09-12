@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Simples com Tailwind</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="flex flex-col justify-between min-h-screen ">
+  <header class="flex justify-around bg-black p-2">
+    <h1 class="text-white font-black text-xl">SenaiNews</h1>
+    <nav class="flex gap-5">
+      <a class="text-white font-black" href="#">Home</a>
+      <a class="text-white font-black" href="#">Sobre</a>
+      <a class="text-white font-black" href="#">Contato</a>
+    </nav>
+  </header>
+  <main class="flex justify-center flex-wrap gap-4 p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <!-- Notícia 1 -->
+      <div class="bg-Gray flex flex-col justify-center items-center rounded rounded-2xl shadow-xl hover:shadow-xl ">
+        <img class="w-full h-48 object-cover " src="https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2024/02/GF_lseHXoAAAVL_-e1709125590214-780x470.jpg" alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Vini Jr não está bem</h3>
+        <p class="text-center">Vinicius Junior segue tento o mal desempenho em partidas consecultivas</p>
+        <a class="bg-black w-full p-2 w-full text-center text-white mt-2" href=" https://ge.globo.com/futebol/selecao-brasileira/noticia/2024/09/11/vini-jr-reconhece-mau-momento-fala-em-falta-de-confianca-da-selecao-e-se-desculpa-com-torcida.ghtml">Ver mais</a>
+      </div>
+      
+      
+      
+      
+     
+
+      <!-- Notícia 2 -->
+      <div class=" flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://lncimg.lance.com.br/uploads/2022/06/26/62b8e314b3c47.jpeg"
+          alt="Imagem de uma noticia" />
+        <h3 class="font-bold mt-2">O maior absurdo da arbitragem em Itaquera… </h3>
+        
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2024/09/12/o-maior-absurdo-da-arbitragem-em-itaquera.htm">Ver mais</a>
+      </div>
+
+      <!-- Notícia 3 -->
+      <div class=" flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://s2-g1.glbimg.com/UFGfEIZ1KkmhL0nTiI111xzEhfc=/0x0:2000x1333/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/1/B/QL2XXsSiGsqxftYnRakA/corgi2.jpg"
+          alt="Imagem de uma noticia" />
+        <p class="text-center">Cachorrinho dá susto em donos e viraliza na web</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://g1.globo.com/planeta-bizarro/noticia/2020/03/24/cachorrinho-da-susto-em-donos-e-viraliza-na-web.ghtml">Ver mais</a>
+      </div>
+
+      <!-- Notícia 4 -->
+      <div class=" flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://s2-g1.glbimg.com/cupCWpJMvWTjKYdDEO3wegGdNIE=/0x0:1700x894/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/H/J/AK2jFxQ2K7143NwLv0XQ/fiveguys.jpg"
+          alt="Imagem de uma noticia" />
+        
+        <p class="text-center">Cinco homens são presos em lanchonete da rede 'Five Guys' na Flórida</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://g1.globo.com/planeta-bizarro/noticia/2019/07/19/cinco-homens-sao-presos-em-lanchonete-da-rede-five-guys-na-florida.ghtml">Ver mais</a>
+      </div>
+
+      <!-- Notícia 5 -->
+      <div class=" flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://s2-g1.glbimg.com/bmATLD53YsIpwDWfJu8U_QRCn7A=/0x0:2214x1476/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/G/5/9bHa9QSnyHr4TWJ36fRQ/2019-07-04t200446z-1640626987-rc186c7e77f0-rtrmadp-3-usa-julyfourth-nathans.jpg"
+          alt="Imagem de uma noticia" />
+       
+        <p class="text-center">Homem come 71 cachorros-quentes em 10 minutos e vence concurso nos EUA</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://g1.globo.com/mundo/noticia/2019/07/04/homem-come-71-cachorros-quentes-em-10-minutos-e-vence-concurso-nos-eua.ghtml">Ver mais</a>
+      </div>
+
+      <!-- Notícia 6 -->
+      <div class="flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://s2-g1.glbimg.com/5zVv082Jr61ZkDiti-AQYypKwho=/0x0:950x600/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2013/03/23/1-holanda.jpg"
+          alt="Imagem de uma noticia" />
+        <p class="text-center">Eslovaco que ia visitar a mãe em Rotherham, na Inglaterra, vai parar em Roterdã, na Holanda</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://g1.globo.com/planeta-bizarro/noticia/2019/08/29/eslovaco-que-ia-visitar-a-mae-em-rotherham-na-inglaterra-vai-parar-em-roterda-na-holanda.ghtml">Ver mais</a>
+      </div>
+
+      <!-- Notícia 7 -->
+      <div class="flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg ">
+        <img class="w-full h-48 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKWSiNT0vUgM-OW3V9kwfUN_zxRUbX63NxjA&s"
+          alt="Imagem de uma noticia" />
+        <h3 class="font-bold mt-2">Corinthians classificado!</h3>
+        <p class="text-center">Juiz só trabalhou</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://www.correiobraziliense.com.br/esportes/2023/11/6661929-corinthians-garante-vaga-na-copa-do-brasil-2024.html">Ver mais</a>
+      </div>
+
+      <!-- Notícia 8 -->
+      <div class=" flex flex-col justify-center items-center rounded shadow-md  hover:shadow-lg  ">
+        <img class="w-full h-48 object-cover" src="https://s2-g1.glbimg.com/c-LllK9a-u6gJRLVzPGuvOT5Vcw=/0x0:1700x1234/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/3/B/iTgsWIQ2igCwBmxhjbCw/mugshot.jpg"
+          alt="Imagem de uma noticia" />
+        <h3 class="font-bold mt-2">Noticias EUA!!!</h3>
+        <p class="text-center">Homem é preso após morder cachorro nos EUA</p>
+        <a class="bg-black p-2 w-full text-center text-white mt-2" href="https://g1.globo.com/planeta-bizarro/noticia/2019/07/01/homem-e-preso-apos-morder-cachorro-nos-eua.ghtml">Ver mais</a>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-black p-2 text-white text-center">
+    <h4>Todos os direitos reservados - 2024</h4>
+  </footer>
+</body>
+
+</html>
